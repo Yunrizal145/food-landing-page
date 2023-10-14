@@ -32,32 +32,32 @@ const Navbar = () => {
 				<ul className="block lg:flex justify-end">
 					<li className="group">
 						<a
+							href="#location"
+							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
+						>
+							Location
+						</a>
+					</li>
+					<li className="group">
+						<a
+							href="#menu"
+							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
+						>
+							Menu
+						</a>
+					</li>
+					<li className="group">
+						<a
 							href="#about"
-							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#FF4495] hover:-translate-y-1 hover:duration-500"
+							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
 						>
 							About
 						</a>
 					</li>
 					<li className="group">
 						<a
-							href="#skills"
-							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#FF4495] hover:-translate-y-1 hover:duration-500"
-						>
-							Skills
-						</a>
-					</li>
-					<li className="group">
-						<a
-							href="#portfolio"
-							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#FF4495] hover:-translate-y-1 hover:duration-500"
-						>
-							Portofolio
-						</a>
-					</li>
-					<li className="group">
-						<a
 							href="#contact"
-							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#FF4495] hover:-translate-y-1 hover:duration-500"
+							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
 						>
 							Contact
 						</a>
