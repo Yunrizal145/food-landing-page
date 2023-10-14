@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-	@apply left-0 pl-5 -mt-5 lg:-mt-0;
+	@apply left-0 pl-5 -mt-5 lg:-mt-0 bg-white;
 }
 
 .hamburger-costum {
