@@ -29,7 +29,7 @@ const Navbar = () => {
 					isNavbarHidden ? "hidden" : ""
 				} w-full absolute py-4 shadow-lg rounded-bl-lg rounded-br-lg top-full lg:flex lg:justify-end lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none mt-2`}
 			>
-				<ul className="block lg:flex justify-end">
+				<ul className="block text-slate-800 lg:flex lg:justify-end">
 					<li className="group">
 						<a
 							href="#location"
@@ -40,18 +40,18 @@ const Navbar = () => {
 					</li>
 					<li className="group">
 						<a
-							href="#menu"
-							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
-						>
-							Menu
-						</a>
-					</li>
-					<li className="group">
-						<a
 							href="#about"
 							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
 						>
 							About
+						</a>
+					</li>
+					<li className="group">
+						<a
+							href="#menu"
+							className="mx-4 flex py-3 text-xl font-bold lg:text-2xl hover:text-[#f58a60] hover:-translate-y-1 hover:duration-500"
+						>
+							Menu
 						</a>
 					</li>
 					<li className="group">
