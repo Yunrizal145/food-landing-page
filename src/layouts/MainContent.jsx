@@ -1,5 +1,5 @@
 import About from "../sections/About";
-import Contact from "../sections/Contac";
+import Contact from "../sections/Contact";
 import Home from "../sections/Home";
 import Menu from "../sections/Menu";
 

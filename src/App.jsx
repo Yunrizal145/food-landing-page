@@ -1,6 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Header from "./layouts/Header";
 import MainContent from "./layouts/MainContent";
+import Footer from "./layouts/Footer";
 
 function App() {
 	const { scrollYProgress } = useScroll();
@@ -18,6 +19,7 @@ function App() {
 			/>
 			<Header />
 			<MainContent />
+			<Footer />
 		</>
 	);
 }
