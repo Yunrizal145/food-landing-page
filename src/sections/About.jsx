@@ -42,7 +42,7 @@ const About = () => {
 					{/* About Section 2 */}
 					<div className="flex flex-col pt-4 md:flex-row lg:mb-24">
 						<div className="overflow-hidden rounded-2xl md:w-1/2 md:h-full">
-							<img src={img2} alt="Delivery Food" />
+							<img src={img2} alt="High Quality Food" />
 						</div>
 						<div className="mb-10 mt-2 md:w-1/2 md:ml-10 lg:ml-52">
 							<h4 className="text-lg font-bold md:text-xl lg:text-4xl">
@@ -71,7 +71,7 @@ const About = () => {
 							</a>
 						</div>
 						<div className="overflow-hidden rounded-2xl md:w-1/2">
-							<img src={img3} alt="Delivery Food" />
+							<img src={img3} alt="Nusantara Food" />
 						</div>
 					</div>
 				</div>
