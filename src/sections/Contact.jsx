@@ -107,7 +107,7 @@ const Contact = () => {
 								name="email"
 								id="email"
 								placeholder="Write your email..."
-								className="w-48 rounded-full p-3 text-black text-xs md:w-64 lg:w-[450px] lg:p-5 lg:text-xl lg:rounded-full"
+								className="w-36 rounded-full p-3 text-black text-xs md:w-64 lg:w-[450px] lg:p-5 lg:text-xl lg:rounded-full"
 							/>
 							<m.div
 								variants={textVariants(1.7)}
