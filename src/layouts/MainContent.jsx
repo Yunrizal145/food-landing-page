@@ -15,7 +15,7 @@ const MainContent = () => {
 			<div className="w-full pt-16">
 				<Menu />
 			</div>
-			<div className="w-full pt-16">
+			<div className="w-full pt-16 lg:pt-32">
 				<Contact />
 			</div>
 		</div>
