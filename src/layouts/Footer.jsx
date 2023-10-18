@@ -4,9 +4,9 @@ import Sosmed from "../components/Sosmed";
 
 const Footer = () => {
 	return (
-		<footer className="w-full mt-10 bg-[#fbf5f1]">
-			<div className="mx-6 pt-4 flex items-center gap-2">
-				<div className="w-20">
+		<footer className="w-full mt-10 bg-[#fbf5f1] md:mt-16">
+			<div className="mx-6 pt-10 flex items-center gap-2 md:mx-32 md:justify-between md:pt-16 md:pb-8 md:gap-6">
+				<div className="w-20 md:w-36">
 					<img src={imgLogo} alt="" />
 				</div>
 				<NavFooter />

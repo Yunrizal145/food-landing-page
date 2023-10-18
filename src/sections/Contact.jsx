@@ -21,56 +21,58 @@ const Contact = () => {
 				</div>
 
 				{/* Contact */}
-				<div className="mx-6 pb-6 ">
-					<div className="flex flex-col gap-4 ">
+				<div className="mx-6 py-6 md:mx-16">
+					<div className="flex flex-col gap-4 md:flex-row ">
 						{/* Contact Mapping */}
 						{sectionChef.map((item, index) => (
 							<div key={index} className="rounded-3xl group">
-								<div className="overflow-hidden rounded-xl transform translate-y-0 transition-transform duration-300 group-hover:-translate-y-10">
+								<div className="overflow-hidden rounded-3xl transform translate-y-0 transition-transform duration-300 group-hover:-translate-y-10">
 									<img
 										src={item.imgChef}
 										alt="Menu"
 										className="w-full"
 									/>
 								</div>
-								<h2 className="font-bold text-center text-slate-700 text-lg mt-6 mb-2 ">
+								<h2 className="font-bold text-center text-slate-700 text-lg my-2 md:mb-10">
 									{item.nameChef}
 								</h2>
 							</div>
 						))}
-						<div className="text-center text-white text-xs mt-4 px-4 py-2 rounded-full bg-[#f58a60] border border-[#f58a60] shadow-xl hover:bg-white hover:text-[#f58a60] duration-300 md:mt-0">
-							See More
-						</div>
+					</div>
+					<div className="text-center text-white text-xs px-4 py-2 rounded-full bg-[#f58a60] border border-[#f58a60] shadow-xl hover:bg-white hover:text-[#f58a60] duration-300 md:mt-0 md:mx-60">
+						See More
 					</div>
 				</div>
 
 				{/* Join Us */}
 				<div
-					className="mx-6 mt-16 text-center bg-cover text-white rounded-3xl"
+					className="relative mx-6 mt-16 text-center bg-cover text-white rounded-[50px] font-bold md:mx-16"
 					style={backgroundImage}
 				>
-					<h2 className="text-sm mx-16 py-4">
-						JOIN US AND GET DISCOUNT UP TO 50%
-					</h2>
-					<div className="flex justify-between mx-7">
-						<input
-							type="text"
-							name="email"
-							id="email"
-							placeholder="Write your email..."
-							className="rounded-2xl p-3 text-black text-xs"
-						/>
-						<div className="p-3 bg-[#f58a60] rounded-full text-xs border border-[#f58a60] shadow-xl hover:bg-white hover:text-[#f58a60] duration-300">
-							Sign In
+					<div className="backdrop-brightness-50 rounded-[50px] overflow-hidden md:py-6">
+						<h2 className="text-sm mx-16 py-4 md:text-2xl md:mx-48">
+							JOIN US AND GET DISCOUNT UP TO 50%
+						</h2>
+						<div className="flex justify-between mx-7 md:mx-40">
+							<input
+								type="text"
+								name="email"
+								id="email"
+								placeholder="Write your email..."
+								className="rounded-2xl p-3 text-black text-xs md:w-64"
+							/>
+							<div className="p-3 bg-[#f58a60] rounded-full text-xs border border-[#f58a60] shadow-xl hover:bg-white hover:text-[#f58a60] duration-300 ">
+								Sign In
+							</div>
 						</div>
-					</div>
-					<div className="text-xs py-4  cursor-pointer">
-						<a
-							href=""
-							className="text-[#f58a60] underline hover:text-white"
-						>
-							I`m a new member
-						</a>
+						<div className="text-xs py-6 cursor-pointer ">
+							<a
+								href=""
+								className="text-[#f58a60] underline hover:text-white"
+							>
+								I`m a new member
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
