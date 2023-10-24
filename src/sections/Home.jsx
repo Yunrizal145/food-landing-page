@@ -1,6 +1,7 @@
 import homePng from "../assets/images/home.png";
 import { BiCurrentLocation } from "react-icons/bi";
 import { motion as m } from "framer-motion";
+import Typewriter from "typewriter-effect";
 import {
 	slideIn,
 	staggerContainer,
@@ -26,7 +27,13 @@ const Home = () => {
 						variants={slideIn("left", "tween", 0.1, 1)}
 						className="text-slate-800 font-bold text-3xl mt-2 md:text-4xl lg:text-5xl"
 					>
-						BEST FOOD FOR YOUR TASTE
+						<Typewriter
+							options={{
+								strings: "BEST FOOD FOR YOUR TASTE",
+								autoStart: true,
+								loop: true,
+							}}
+						/>
 					</m.div>
 					<m.div
 						variants={textVariants(1.1)}
