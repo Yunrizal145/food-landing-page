@@ -27,7 +27,7 @@ const Navbar = () => {
 				id="navbar"
 				className={`navbar ${
 					isNavbarHidden ? "hidden" : ""
-				} w-full absolute py-4 shadow-lg rounded-bl-lg rounded-br-lg top-full lg:flex lg:justify-end lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none mt-2`}
+				} w-full absolute py-4 shadow-lg rounded-bl-lg rounded-br-lg top-full lg:flex lg:gap-10 lg:justify-end lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none mt-2`}
 			>
 				<ul className="block text-slate-800 lg:flex lg:justify-end">
 					<li className="group">
@@ -63,6 +63,9 @@ const Navbar = () => {
 						</a>
 					</li>
 				</ul>
+				<div className="mt-5 mx-4 rounded-lg font-bold text-xl cursor-pointer underline hover:text-[#f58a60] lg:mt-0 lg:no-underline lg:px-6 lg:py-3 lg:border lg:border-[#f58a60] lg:hover:bg-[#f58a60] lg:hover:text-white duration-300">
+					LEARN MORE
+				</div>
 			</nav>
 		</div>
 	);
